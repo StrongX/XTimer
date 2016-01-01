@@ -15,6 +15,8 @@
 		2A087D901C36A6F600CF6B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A087D8E1C36A6F600CF6B1A /* LaunchScreen.storyboard */; };
 		2A087D9B1C36A6F600CF6B1A /* XTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A087D9A1C36A6F600CF6B1A /* XTimerTests.m */; };
 		2A087DA61C36A6F600CF6B1A /* XTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A087DA51C36A6F600CF6B1A /* XTimerUITests.m */; };
+		2A087DB51C36A85000CF6B1A /* XTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A087DB41C36A85000CF6B1A /* XTimerViewController.m */; };
+		2A087DB91C36A87300CF6B1A /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A087DB81C36A87300CF6B1A /* XTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2A087DA11C36A6F600CF6B1A /* XTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A087DA51C36A6F600CF6B1A /* XTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTimerUITests.m; sourceTree = "<group>"; };
 		2A087DA71C36A6F600CF6B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A087DB31C36A85000CF6B1A /* XTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTimerViewController.h; sourceTree = "<group>"; };
+		2A087DB41C36A85000CF6B1A /* XTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTimerViewController.m; sourceTree = "<group>"; };
+		2A087DB71C36A87300CF6B1A /* XTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTimer.h; sourceTree = "<group>"; };
+		2A087DB81C36A87300CF6B1A /* XTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		2A087D7F1C36A6F600CF6B1A /* XTimer */ = {
 			isa = PBXGroup;
 			children = (
+				2A087DB61C36A86300CF6B1A /* XTimer */,
 				2A087D831C36A6F600CF6B1A /* AppDelegate.h */,
 				2A087D841C36A6F600CF6B1A /* AppDelegate.m */,
 				2A087D861C36A6F600CF6B1A /* ViewController.h */,
 				2A087D871C36A6F600CF6B1A /* ViewController.m */,
+				2A087DB31C36A85000CF6B1A /* XTimerViewController.h */,
+				2A087DB41C36A85000CF6B1A /* XTimerViewController.m */,
 				2A087D891C36A6F600CF6B1A /* Main.storyboard */,
 				2A087D8C1C36A6F600CF6B1A /* Assets.xcassets */,
 				2A087D8E1C36A6F600CF6B1A /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				2A087DA71C36A6F600CF6B1A /* Info.plist */,
 			);
 			path = XTimerUITests;
+			sourceTree = "<group>";
+		};
+		2A087DB61C36A86300CF6B1A /* XTimer */ = {
+			isa = PBXGroup;
+			children = (
+				2A087DB71C36A87300CF6B1A /* XTimer.h */,
+				2A087DB81C36A87300CF6B1A /* XTimer.m */,
+			);
+			name = XTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A087D881C36A6F600CF6B1A /* ViewController.m in Sources */,
+				2A087DB51C36A85000CF6B1A /* XTimerViewController.m in Sources */,
 				2A087D851C36A6F600CF6B1A /* AppDelegate.m in Sources */,
 				2A087D821C36A6F600CF6B1A /* main.m in Sources */,
+				2A087DB91C36A87300CF6B1A /* XTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlx.XTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlx.XTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
