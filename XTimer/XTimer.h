@@ -14,6 +14,7 @@
 @property (nullable,weak) id atarget;
 @property (nullable,nonatomic, assign) SEL aSelector;
 @property (nullable, retain) id userInfo;
+@property (nonatomic, assign) BOOL repeats;
 
 
 + (nullable XTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti target:(nullable id)aTarget selector:(nullable SEL)aSelector userInfo:(nullable id)userInfo repeats:(BOOL)yesOrNo;
