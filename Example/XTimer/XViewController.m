@@ -7,23 +7,37 @@
 //
 
 #import "XViewController.h"
+#import "XTimer.h"
 
 @interface XViewController ()
 
 @end
 
 @implementation XViewController
-
+{
+    XTimer *timer;
+}
+-(void)dealloc{
+    NSLog(@"XViewController release");
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    timer = [XTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(action:) userInfo:@{@"key":@"value"} repeats:true];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)action:(NSNotification *)info{
+    NSLog(@"%@",info);
+}
+- (IBAction)stop:(id)sender {
+    [timer stop];
+}
+- (IBAction)reStart:(id)sender {
+    [timer reStart];
+}
+- (IBAction)invalidate:(id)sender {
+    [timer invalidate];
 }
 
 @end

@@ -3,11 +3,5 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'XTimer_Example' do
-  pod 'XTimer', :path => '../'
-
-  target 'XTimer_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  pod 'XTimer'
 end
