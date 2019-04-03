@@ -29,6 +29,7 @@
 
 -(void)action:(NSNotification *)info{
     NSLog(@"%@",info);
+    NSLog(@"%@",[NSThread currentThread]);
 }
 - (IBAction)stop:(id)sender {
     [timer stop];

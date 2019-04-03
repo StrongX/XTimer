@@ -3,5 +3,5 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'XTimer_Example' do
-  pod 'XTimer'
+    pod 'XTimer',:path=>'../'
 end

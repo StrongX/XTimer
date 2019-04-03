@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1F0EC90123CCB756F569881FE0140982 /* Pods-XTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441298BF700AFFC0C3215F55A0D6215D /* Pods-XTimer_Example-dummy.m */; };
-		4568F91D8E7F086C92A65FAEF13C1013 /* XTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E9052FF1125CB50EE79EBA67B3DE2C /* XTimer-dummy.m */; };
+		4568F91D8E7F086C92A65FAEF13C1013 /* XTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E798F60FF4F48C259C7D973BFF4232B /* XTimer-dummy.m */; };
 		51178F04E1802EF467A9ECAE695E5CDE /* Pods-XTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5FC861D6697B369EB77B4DFC10F8C /* Pods-XTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6479A194F7EC5A7F915A884C6A2E3DBE /* XTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F71DD56C7279A2C1C6BE48B7534D63CB /* XTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6479A194F7EC5A7F915A884C6A2E3DBE /* XTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB6BE1F5276C97ABAA250DFA54C8D4E /* XTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFCDC0656D3AB19010CFA67AF2332A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		B367A827B577FAE5DC4CD8FA4473CA27 /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D56A9F35808E710A3C44E992765D9E /* XTimer.m */; };
+		B367A827B577FAE5DC4CD8FA4473CA27 /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 408C34369C77C59EB4C82D501EAC7B7A /* XTimer.m */; };
 		CF2FDB48F55FCEE40549AEBF6C4107E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D8E440958265EE579BC996A0079652FC /* XTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 944478334C8DBE5ACCF52428219651D4 /* XTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E440958265EE579BC996A0079652FC /* XTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A362C04A9C812B25FFC1093E09CAD84 /* XTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,27 +28,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		256FA91F28A3F8E900AE37A1C0018E9E /* XTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTimer.modulemap; sourceTree = "<group>"; };
-		2680997DC90AB6787B8F8D5A595152EB /* XTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XTimer-Info.plist"; sourceTree = "<group>"; };
+		1ABBBFD29124ED000C840BB3C5A74D89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2AA2E513E909B00E3C05F4649557CC19 /* Pods-XTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTimer_Example.modulemap"; sourceTree = "<group>"; };
+		2D491D69F4EEF974ECCD9C15612FE79C /* XTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTimer.modulemap; sourceTree = "<group>"; };
+		2F50DF5937026C0B3700934B7A2AA686 /* XTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTimer.xcconfig; sourceTree = "<group>"; };
+		408C34369C77C59EB4C82D501EAC7B7A /* XTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTimer.m; path = XTimer/Classes/XTimer.m; sourceTree = "<group>"; };
 		4295DA2CC8A39EE3CC5C5987D9ECF843 /* Pods_XTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XTimer_Example.framework; path = "Pods-XTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441298BF700AFFC0C3215F55A0D6215D /* Pods-XTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTimer_Example-dummy.m"; sourceTree = "<group>"; };
-		44D56A9F35808E710A3C44E992765D9E /* XTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTimer.m; path = XTimer/Classes/XTimer.m; sourceTree = "<group>"; };
 		509A4D6F4E79C9EB5DEBB3585C7E021B /* XTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XTimer.framework; path = XTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA5FC861D6697B369EB77B4DFC10F8C /* Pods-XTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		6A362C04A9C812B25FFC1093E09CAD84 /* XTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTimer.h; path = XTimer/Classes/XTimer.h; sourceTree = "<group>"; };
 		6A46092C99BA443717450B5D62A24E54 /* Pods-XTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70E9052FF1125CB50EE79EBA67B3DE2C /* XTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTimer-dummy.m"; sourceTree = "<group>"; };
+		718B47FD0FA3E5DAF431C16E5A61294C /* XTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTimer-prefix.pch"; sourceTree = "<group>"; };
 		7E0105CD49683250BF9C8F39CC5CEB7C /* Pods-XTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		7E458FAAC8A9AE68FD4F567C34DDF776 /* XTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XTimer-Info.plist"; sourceTree = "<group>"; };
+		7E798F60FF4F48C259C7D973BFF4232B /* XTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTimer-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		944478334C8DBE5ACCF52428219651D4 /* XTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTimer.h; path = XTimer/Classes/XTimer.h; sourceTree = "<group>"; };
-		BCA6CCEE9E814A89E9A3B4C1528A0028 /* XTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTimer.xcconfig; sourceTree = "<group>"; };
+		9FB6BE1F5276C97ABAA250DFA54C8D4E /* XTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTimer-umbrella.h"; sourceTree = "<group>"; };
+		C32FCBAB61BFF7A9E477F03F64396487 /* XTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8BD53734C98A664F472405D3476342B /* Pods-XTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D355CD37792E906E86A9F8481F1AA27C /* XTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTimer-prefix.pch"; sourceTree = "<group>"; };
+		CF846ADADFDE888082EE15C5CB9DAF95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D46AD82D74C5A34EB4D61ACE595BBD0A /* Pods-XTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBE2704D6EE5D1AD486C728F49CB8027 /* Pods-XTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3A435BD61A4A4158F43F0252434CA9E /* Pods-XTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F71DD56C7279A2C1C6BE48B7534D63CB /* XTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTimer-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		350C5845D41003B8D49B90C844824173 /* XTimer */ = {
+			isa = PBXGroup;
+			children = (
+				6A362C04A9C812B25FFC1093E09CAD84 /* XTimer.h */,
+				408C34369C77C59EB4C82D501EAC7B7A /* XTimer.m */,
+				E1F7C37E39ABA2989C0F2340D9174ECF /* Pod */,
+				5FEAFCD67B4F996814F7FE158E125C21 /* Support Files */,
+			);
+			name = XTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,48 +103,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4F30D961762346E6B5CC53557C100F18 /* Support Files */ = {
+		5FEAFCD67B4F996814F7FE158E125C21 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				256FA91F28A3F8E900AE37A1C0018E9E /* XTimer.modulemap */,
-				BCA6CCEE9E814A89E9A3B4C1528A0028 /* XTimer.xcconfig */,
-				70E9052FF1125CB50EE79EBA67B3DE2C /* XTimer-dummy.m */,
-				2680997DC90AB6787B8F8D5A595152EB /* XTimer-Info.plist */,
-				D355CD37792E906E86A9F8481F1AA27C /* XTimer-prefix.pch */,
-				F71DD56C7279A2C1C6BE48B7534D63CB /* XTimer-umbrella.h */,
+				2D491D69F4EEF974ECCD9C15612FE79C /* XTimer.modulemap */,
+				2F50DF5937026C0B3700934B7A2AA686 /* XTimer.xcconfig */,
+				7E798F60FF4F48C259C7D973BFF4232B /* XTimer-dummy.m */,
+				7E458FAAC8A9AE68FD4F567C34DDF776 /* XTimer-Info.plist */,
+				718B47FD0FA3E5DAF431C16E5A61294C /* XTimer-prefix.pch */,
+				9FB6BE1F5276C97ABAA250DFA54C8D4E /* XTimer-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/XTimer";
-			sourceTree = "<group>";
-		};
-		7863934A4B20F702449F883662961BCE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BB0E853CC665809E4801C8A2A1D8AEAB /* XTimer */,
-			);
-			name = Pods;
+			path = "Example/Pods/Target Support Files/XTimer";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B35BA28972F7D3E34C4F947DAA96069A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7863934A4B20F702449F883662961BCE /* Pods */,
 				22EFCCD402F259FE97CE524975C71404 /* Products */,
 				FE5EF6D87BAEF2A51F26964832B63062 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BB0E853CC665809E4801C8A2A1D8AEAB /* XTimer */ = {
+		B35BA28972F7D3E34C4F947DAA96069A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				944478334C8DBE5ACCF52428219651D4 /* XTimer.h */,
-				44D56A9F35808E710A3C44E992765D9E /* XTimer.m */,
-				4F30D961762346E6B5CC53557C100F18 /* Support Files */,
+				350C5845D41003B8D49B90C844824173 /* XTimer */,
 			);
-			name = XTimer;
-			path = XTimer;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -155,6 +159,16 @@
 			);
 			name = "Pods-XTimer_Example";
 			path = "Target Support Files/Pods-XTimer_Example";
+			sourceTree = "<group>";
+		};
+		E1F7C37E39ABA2989C0F2340D9174ECF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF846ADADFDE888082EE15C5CB9DAF95 /* LICENSE */,
+				1ABBBFD29124ED000C840BB3C5A74D89 /* README.md */,
+				C32FCBAB61BFF7A9E477F03F64396487 /* XTimer.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FE5EF6D87BAEF2A51F26964832B63062 /* Targets Support Files */ = {
@@ -301,7 +315,7 @@
 /* Begin XCBuildConfiguration section */
 		02E21008165DB20C04A004204CF8C499 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCA6CCEE9E814A89E9A3B4C1528A0028 /* XTimer.xcconfig */;
+			baseConfigurationReference = 2F50DF5937026C0B3700934B7A2AA686 /* XTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -365,7 +379,7 @@
 		};
 		783BD2BE4956084C0657150C72958521 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCA6CCEE9E814A89E9A3B4C1528A0028 /* XTimer.xcconfig */;
+			baseConfigurationReference = 2F50DF5937026C0B3700934B7A2AA686 /* XTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

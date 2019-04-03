@@ -2,15 +2,15 @@ PODS:
   - XTimer (0.1.0)
 
 DEPENDENCIES:
-  - XTimer
+  - XTimer (from `../`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - XTimer
+EXTERNAL SOURCES:
+  XTimer:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  XTimer: b1e1a4d077defd87a7d712520a2023d5facdd00a
+  XTimer: 24aa1c7670d2652b308ad182e39d2c6df30a39ea
 
-PODFILE CHECKSUM: 682065d0eac44ae49b6e77b7527698c3d3bf5914
+PODFILE CHECKSUM: 09cd676016fe3474f2f8978022a8737f03763673
 
 COCOAPODS: 1.6.0.beta.1
